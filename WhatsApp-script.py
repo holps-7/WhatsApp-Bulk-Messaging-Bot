@@ -21,7 +21,7 @@ class WhatsApp:
 
         #SCAN the QR code within 10 seconds and press Enter
         while (True):
-            temp = input("Did you logged in successfully? Y/n")
+            temp = input("Did you logged in successfully? Y/n:  ")
             if (temp == 'y' or temp == 'Y' or temp == 'Yes' or temp == 'yes' or temp == 'YES'):
                 sleep(5)
                 break
