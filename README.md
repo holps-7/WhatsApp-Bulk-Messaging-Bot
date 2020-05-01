@@ -1,6 +1,7 @@
 # WhatsApp-Bulk-Messaging-Bot!
 ### Coded by: @holps-7 (https://github.com/holps-7/WhatsApp-Bulk-Messaging-Bot/)
 ### Give me the credits if you copy ANY part from this code. Don't be NOOB!!
+## Star this repo if you liked the project!
 
 A simple script that can be used for sending Bluk Messages to your contacts...
 
@@ -99,4 +100,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Legal disclaimer:
 
-Usage of WhatsApp-Bulk-Messaging-Bot for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Only use for educational purposes.
+**Usage of WhatsApp-Bulk-Messaging-Bot for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Only use for educational purposes.**
