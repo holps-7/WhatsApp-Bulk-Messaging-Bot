@@ -18,7 +18,6 @@ You will need the following for running this script-<br/>
 >>2)Firefox web browser with Firefox webdriver<br/>
 >>3)pip3<br/>
 >>4)selenium<br/>
->>5)requests<br/>
 
 
 
@@ -46,11 +45,10 @@ apt install python3-pip
 ```
 
 
-#### 4) Installing Selenium and Requests
+#### 4) Installing Selenium
 ```elm
 cd
 pip3 install selenium
-pip3 install requests
 ```
 
 
