@@ -1,3 +1,9 @@
+<center>
+  
+![](https://img.shields.io/badge/author-Ramesh%20Sachan-brightgreen) ![](https://img.shields.io/badge/licence-MIT-green)
+
+</center>
+
 # WhatsApp-Bulk-Messaging-Bot!
 ### Coded by: @holps-7 (https://github.com/holps-7/WhatsApp-Bulk-Messaging-Bot/)
 ### Give me the credits if you copy ANY part from this code. Don't be NOOB!!
