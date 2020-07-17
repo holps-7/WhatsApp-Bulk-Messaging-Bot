@@ -5,7 +5,7 @@
 </center>
 
 # WhatsApp-Bulk-Messaging-Bot!
-### Coded by: @holps-7 (https://github.com/holps-7/WhatsApp-Bulk-Messaging-Bot/)
+### Coded by: [@holps-7](https://github.com/holps-7/WhatsApp-Bulk-Messaging-Bot/)
 ### Give me the credits if you copy ANY part from this code. Don't be NOOB!!
 ## Star this repo if you liked the project!
 
