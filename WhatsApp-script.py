@@ -35,7 +35,7 @@ class WhatsApp:
 
         for i in range(1,len(arr)):
             receiver = browser.find_element_by_xpath("//span[@title='{}']".format(arr[i][0])).click()
-            message_area = browser.find_element_by_xpath("//div[@class='_2S1VP copyable-text selectable-text'][@data-tab='1'][@dir='ltr']")
+            message_area = browser.find_element_by_xpath("//* [@id='main']/footer/div[1]/div[2]/div/div[2]")
             message_area.send_keys(arr[i][1], Keys.ENTER)
             sleep(0.5)
 
