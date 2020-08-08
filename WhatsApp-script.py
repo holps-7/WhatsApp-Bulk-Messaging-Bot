@@ -34,10 +34,13 @@ class WhatsApp:
         browser.implicitly_wait(5)
 
         for i in range(1,len(arr)):
-            receiver = browser.find_element_by_xpath("//span[@title='{}']".format(arr[i][0])).click()
-            message_area = browser.find_element_by_xpath("//* [@id='main']/footer/div[1]/div[2]/div/div[2]")
-            message_area.send_keys(arr[i][1], Keys.ENTER)
-            sleep(0.5)
+            search_area = browser.find_element_by_xpath("//* [@data-tab='3']")
+            search_area.click()
+            search_area.send_keys(arr[i][0])
+            browser.find_element_by_xpath("//span[@title='{}']".format(arr[i][0])).click()
+            browser.find_element_by_xpath("//* [@id='main']/footer/div[1]/div[2]/div/div[2]").send_keys(arr[i][1], Keys.ENTER)
+            #uncomment the line 43 and replace # with any digit of your choice to put a delay of that muany seconds b/w sending 2 messages
+            #sleep(#)
 
         sleep(3)
         browser.close()
