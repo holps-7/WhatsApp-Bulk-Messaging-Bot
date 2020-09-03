@@ -4,7 +4,7 @@ from csv import reader
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
+from selenium.webdriver.common.action_chains import ActionChains
 
 #Scan the QR Code
 class WhatsApp:
@@ -41,7 +41,10 @@ class WhatsApp:
             browser.find_element_by_xpath("//* [@id='main']/footer/div[1]/div[2]/div/div[2]").send_keys(arr[i][1], Keys.ENTER)
             #uncomment the line 43 and replace # with any digit of your choice to put a delay of that muany seconds b/w sending 2 messages
             #sleep(#)
-
+            for part in arr[i][1].split('\\n'):
+                browser.find_element_by_xpath("//* [@id='main']/footer/div[1]/div[2]/div/div[2]").send_keys(part)
+                ActionChains(browser).key_down(Keys.SHIFT).key_down(Keys.ENTER).key_up(Keys.SHIFT).key_up(Keys.ENTER).perform()
+            browser.find_element_by_xpath("//* [@id='main']/footer/div[1]/div[2]/div/div[2]").send_keys(Keys.ENTER)
         sleep(3)
         browser.close()
 
