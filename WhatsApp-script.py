@@ -23,7 +23,7 @@ class WhatsApp:
         while (True):
             temp = input("Did you logged in successfully? Y/n:  ")
             if (temp == 'y' or temp == 'Y' or temp == 'Yes' or temp == 'yes' or temp == 'YES'):
-                sleep(5)
+                sleep(3)
                 break
             else:
                 print("Try again")
